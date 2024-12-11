@@ -1,7 +1,7 @@
-console.log("this is working now");
+const btn = document.querySelector("#btn");
 
-function testing() {
-  console.log("Moved the shit...");
+btn.addEventListener("click", doesBranchStay);
+
+function doesBranchStay() {
+  console.log(true);
 }
-
-testing();
